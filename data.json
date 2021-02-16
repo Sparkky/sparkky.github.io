@@ -2,7 +2,7 @@
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "#111"
+      "value": "#292929"
     },
     "image": "",
     "position": "50% 50%",
@@ -30,22 +30,12 @@
     "cure": false,
     "delay": 0,
     "enable": false,
-    "infections": 0,
+    "infections": 5,
     "stages": []
   },
   "interactivity": {
-    "detectsOn": "canvas",
+    "detectsOn": "window",
     "events": {
-      "onClick": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "onDiv": {
-        "selectors": [],
-        "enable": false,
-        "mode": [],
-        "type": "circle"
-      },
       "onHover": {
         "enable": true,
         "mode": "bubble",
@@ -261,8 +251,8 @@
         "top": "out"
       },
       "random": false,
-      "size": false,
-      "speed": 2,
+      "size": true,
+      "speed": 1,
       "straight": false,
       "trail": {
         "enable": false,
@@ -281,7 +271,7 @@
         "factor": 1000
       },
       "limit": 0,
-      "value": 400
+      "value": 600
     },
     "opacity": {
       "random": {
@@ -301,24 +291,24 @@
     "reduceDuplicates": false,
     "rotate": {
       "random": {
-        "enable": false,
+        "enable": true,
         "minimumValue": 0
       },
-      "value": 0,
+      "value": 12,
       "animation": {
-        "enable": false,
-        "speed": 0,
+        "enable": true,
+        "speed": 12,
         "sync": false
       },
       "direction": "clockwise",
       "path": false
     },
     "shadow": {
-      "blur": 0,
+      "blur": 2,
       "color": {
-        "value": "#000000"
+        "value": "#7aa0ff"
       },
-      "enable": false,
+      "enable": true,
       "offset": {
         "x": 0,
         "y": 0
@@ -328,19 +318,6 @@
       "options": {
         "polygon": {
           "nb_sides": 5
-        },
-        "star": {
-          "nb_sides": 5
-        },
-        "image": {
-          "src": "https://cdn.matteobruni.it/images/particles/github.svg",
-          "width": 100,
-          "height": 100
-        },
-        "images": {
-          "src": "https://cdn.matteobruni.it/images/particles/github.svg",
-          "width": 100,
-          "height": 100
         }
       },
       "type": "circle"
@@ -350,7 +327,7 @@
         "enable": true,
         "minimumValue": 1
       },
-      "value": 10,
+      "value": 5,
       "animation": {
         "destroy": "none",
         "enable": false,
@@ -379,12 +356,12 @@
       },
       "particles": {
         "enable": false,
-        "frequency": 0.05,
+        "frequency": 0.0005,
         "opacity": 1
       }
     }
   },
   "pauseOnBlur": true,
-  "pauseOnOutsideViewport": false,
+  "pauseOnOutsideViewport": true,
   "themes": []
 }
