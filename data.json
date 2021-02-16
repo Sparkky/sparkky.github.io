@@ -327,7 +327,7 @@
         "enable": true,
         "minimumValue": 1
       },
-      "value": 5,
+      "value": 3,
       "animation": {
         "destroy": "none",
         "enable": false,
